@@ -1,0 +1,22 @@
+{
+  "name": "job-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "express-winston": "^4.2.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
