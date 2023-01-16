@@ -9,9 +9,9 @@ const app = express()
 
 const PORT = process.env.PORT
 
-// app.use(winston.logger({
+app.use(winston.logger({
 
-// }))
+}))
 
 app.use(express.json())
 
